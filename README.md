@@ -7,13 +7,15 @@
 [ci]:      https://travis-ci.org/simon-engledew/postcss-scoped
 
 ```css
-.foo {
-    /* Input example */
+@scope Panel {
+  .foo {
+      /* Input example */
+  }
 }
 ```
 
 ```css
-.foo {
+.scope-761597ae .foo {
   /* Output example */
 }
 ```
